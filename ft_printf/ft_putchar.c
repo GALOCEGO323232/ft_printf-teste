@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putchar.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kgagliar <kgagliar@student.42.fr>              +#+  +:+       +#+    */
+/*   By: kgagliar <kgagliar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/08/04 13:24:32 by kgagliar            #+#    #+#           */
-/*   Updated: 2025/08/04 13:24:32 by kgagliar            ###   ########.fr    */
+/*   Created: 2025/08/05 13:24:50 by kgagliar          #+#    #+#             */
+/*   Updated: 2025/08/05 13:24:53 by kgagliar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int ft_putchar(char c)
+int	ft_putchar(char c)
 {
-    write(1, &c, 1);
-    return 1;
+	write(1, &c, 1);
+	return (1);
 }
