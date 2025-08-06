@@ -6,7 +6,7 @@
 /*   By: kgagliar <kgagliar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/05 13:20:44 by kgagliar          #+#    #+#             */
-/*   Updated: 2025/08/05 14:20:26 by kgagliar         ###   ########.fr       */
+/*   Updated: 2025/08/05 16:25:10 by kgagliar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,7 @@ int	ft_printf(const char *format, ...)
 	int			i;
 
 	if (!format)
-		return (write(1, "(null)", 6));
+		return (-1);
 	i = 0;
 	print = 0;
 	va_start(args, format);
